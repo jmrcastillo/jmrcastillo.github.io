@@ -2,7 +2,12 @@
 
 body {
     overflow: hidden;
-    background-image: linear-gradient(to bottom right, #007081, #10b285);
+    background: linear-gradient(to bottom right, #007081, #10b285) fixed;
+    /*background-attachment: fixed;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: auto auto;
 }
 
 #particles-js {
@@ -18,7 +23,7 @@ body {
     display: block;
     position: relative;
     z-index: 9999;
-    height: 630px;
+    height: 100%;
     line-height: 30px;
     background: #fff;
     border: 1px solid #14574e;
@@ -82,9 +87,9 @@ body {
     border: 1px solid #75c57b;
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
-    position: absolute;
+    position: relative;
     width: 420px;
-    margin: 6px auto 0px auto;
+    margin: 6px auto 12px auto;
 }
 
 .media ul {
