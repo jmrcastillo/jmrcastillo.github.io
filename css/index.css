@@ -63,7 +63,8 @@ body {
 }
 
 .container p.intro {
-    font-size: 15px;
+    font-family: Georgia, Serif;
+    font-size: 18px;
 }
 
 .container p {
@@ -98,7 +99,7 @@ body {
 
 .media ul li {
     list-style: none;
-    margin: 6px 9px;
+    margin: 6px 18px;
     width: 27px;
     display: inline-block;
     transition: .5s;
